@@ -6,3 +6,5 @@
 1. Run `composer install`
 1. Run `php artisan laravolt:link-assets`
 1. Run `php artisan migrate --seed`
+1. Run `php artisan migrate --path=/database/migrations_tenant`
+1. Run `php artisan db:seed --class=TenantPostSeeder    `
